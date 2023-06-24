@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT Preview Card Component</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      type="img/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <article class="nft-container">
+        <div class="img-container">
+          <img
+            src="./images/image-equilibrium.jpg"
+            class="nft-img"
+            alt="Image of NFT that looks like a cube."
+          />
+          <div class="img-overlay">
+            <img
+              class="img-overlay-img"
+              src="./images/icon-view.svg"
+              alt="Image of a view icon."
+            />
+          </div>
+        </div>
+        <h3 class="nft-name">Equilibrium #3429</h3>
+        <p class="nft-description">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <div class="price-days-container">
+          <div class="ethereum-container">
+            <svg
+              class="ethereum-icon"
+              width="11"
+              height="18"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z"
+                fill="#00FFF8"
+              />
+            </svg>
+            <p class="ethereum-price">0.041 ETH</p>
+          </div>
+          <div class="days-left-container">
+            <svg
+              class="clock-icon"
+              width="17"
+              height="17"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z"
+                fill="#8BACD9"
+              />
+            </svg>
+            <p class="days-left-text">3 days left</p>
+          </div>
+        </div>
+        <hr class="hr-line" />
+        <div class="creator-container">
+          <img
+            src="./images/image-avatar.png"
+            class="creator-img"
+            alt="Image of the creator"
+          />
+          <p class="creator-text">
+            <span class="creation-of-text">Creation of </span
+            ><span class="creator-name-text">Jules Wyvern</span>
+          </p>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
